@@ -1,0 +1,81 @@
+html, body, header, nav, div, h1, h2, h3, ul, li, a, p{
+    margin: 0;
+    padding: 0;
+    font-family:  Arial;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: rgb(80, 25, 32);
+    color:rgb(27, 6, 9);
+}
+
+.navizquierda{
+    display: flex;
+    gap: 65px;
+    text-decoration: none;
+    align-items: center;
+    
+    
+}
+
+.navderecha{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left:50%;
+
+}
+
+.logo{
+    margin-left: 20px;
+    width: 180px;
+    height: 120px;
+    border-radius: 40%;
+}
+
+nav li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.titulo{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#prin{
+    margin: 10px;
+    width: 95%;
+    height: 150px;
+    object-fit: cover; /*este es de mi cosecha*/
+    border-radius: 1%;
+
+}
+
+#paraimg{
+    justify-content: center;
+    display: flex;
+    background-color: black;
+}
+
+.centro{
+    background-color: rgb(80, 25, 32);
+}
+
+#mifoto{
+    width: 500px;
+    height: 420px;
+}
+
+footer{
+    background-color: rgb(80, 25, 32);
+    height: 50px;
+}
+#paraelfoot{
+    text-align: center;
+
+
+}
