@@ -66,7 +66,7 @@ nav li a{
 /******************/
 
 .centro{
-    height: 550px;
+    height: 400px;
     background-color: black;
 }
 #caja1{
@@ -101,7 +101,7 @@ nav li a{
     color:rgb(228, 228, 181);
     list-style: none;
 }
-/******/
+/***************************************************************************/
 
 #parafotoempresa{
     justify-content: center;/*mi cosecha*/
@@ -112,12 +112,44 @@ nav li a{
     width: 75%;
     height: 420px;
     border-radius: 1%;
-    margin-top: -120px;
+    margin-top: 20px;
     background-color: black;
     margin-bottom: 20px;
     
 }
-/******/
+
+/***************************************************************************/
+/***imita el centro del form*********************************************/
+.centrodos{
+
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    padding: 60px;
+}
+
+/*************************************************************************/
+
+.paraelform{
+    background-color: rgb(80, 25, 32);
+    padding: 50px;
+    width: 500px;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.botonform{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+/***************************************************************************/
 footer{
     background-color: rgb(80, 25, 32);
     clear: both;
